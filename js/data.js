@@ -22,7 +22,7 @@ var JSONBingo = {"squares": [
         {"square": "Cutting Edge"},	   	
         {"square": "Deep dive"},
         {"square": "Deliverable"},
-        {"square": "Disrupt"}    	
+        {"square": "Disrupt"},    	
         {"square": "Drill down"},
         {"square": "Drinking the Kool-Aid"},
         {"square": "Ecosystem"},

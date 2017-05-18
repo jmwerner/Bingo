@@ -1,5 +1,5 @@
 
-var headerText = "Meeting Bingo";
+var headerText = "Lingo Bingo";
 
 var winText = "Winner";
 

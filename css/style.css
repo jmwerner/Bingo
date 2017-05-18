@@ -26,6 +26,7 @@ body {
 }	
 
 #header, #footer {
+	text-align: center;
 	display: block;
 	float: left;
 	width: 600px;
@@ -63,7 +64,6 @@ body {
 }
 
 #footer {
-	text-align: center;
 	font-size: 1.4em;
 	padding: 3px 20px;
 	margin-bottom: 80px;

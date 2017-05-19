@@ -4,6 +4,9 @@ var headerText = "Lingo Bingo";
 var winText = "Winner";
 
 var JSONBingo = {"squares": [
+        {"square": "Accelerate"},
+        {"square": "Advancement"},
+        {"square": "Agile"},
         {"square": "Align"},
         {"square": "Amplify"},
         {"square": "Analysis paralysis"},	
@@ -16,7 +19,8 @@ var JSONBingo = {"squares": [
         {"square": "Buy-in"},	
         {"square": "Capability"},	
         {"square": "Calibrate"},
-        {"square": "Close the loop"},	  
+        {"square": "Close the loop"},	
+        {"square": "Collaboration"},  
         {"square": "Core competency"},
         {"square": "Current state"},
         {"square": "Cutting Edge"},	   	
@@ -29,6 +33,7 @@ var JSONBingo = {"squares": [
         {"square": "Elephant in the room"},
         {"square": "Empowerment"},
         {"square": "Enable"},	
+        {"square": "First-class"},
         {"square": "Foundational"},
         {"square": "Framework"},
         {"square": "Future state"},

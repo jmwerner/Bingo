@@ -69,6 +69,7 @@ var JSONBingo = {"squares": [
         {"square": "Robust"},	
         {"square": "Scale"},
         {"square": "Scenario"},	
+        {"square": "Stakeholder"},
         {"square": "Streamline"},
         {"square": "Sustainability"},
         {"square": "Synergy"},

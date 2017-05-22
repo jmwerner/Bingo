@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
 	
 	$('body').on('touchmove', false);
@@ -44,15 +43,30 @@ $(document).ready(function() {
 		if (row1 == 5 || row2 == 5 || row3 == 5 || row4 == 5 || row5 == 5 || col1 == 5 || col2 == 5 || col3 == 5  || col4 == 5  || col5 == 5 || diag1 == 5 || diag2 == 5) {
 			$('#header').html(winText);
 			$('#header').addClass("win");
-	    		
+			document.getElementById("winTime").innerHTML = "Win time: " + getTime()
     	} else {
 			$('#header').html(headerText);
 			$('#header').removeClass("win");
+			document.getElementById("winTime").innerHTML = ""
 		}; 
     });
         
 });
 
+function getTime() {
+	var today = new Date();
+	var h = today.getHours();
+	var m = today.getMinutes();
+	var s = today.getSeconds();
+	m = checkTime(m);
+	s = checkTime(s);
+	return (h + ":" + m + ":" + s);
+}
+
+function checkTime(i) {
+	if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+	return i;
+}
 
 shuffle = function(v){
     	for(var j, x, i = v.length; i; j = parseInt(Math.random() * i), x = v[--i], v[i] = v[j], v[j] = x);

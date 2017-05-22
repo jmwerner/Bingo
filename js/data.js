@@ -1,7 +1,9 @@
 
 var headerText = "Lingo Bingo";
 
-var winText = "Winner";
+var winTextAll = ["You are a business champion!",
+                  "You are a titan of industry!"];
+var winText = winTextAll[Math.floor(Math.random() * winTextAll.length)];
 
 var JSONBingo = {"squares": [
         {"square": "Accelerate"},
@@ -37,6 +39,7 @@ var JSONBingo = {"squares": [
         {"square": "Foundational"},
         {"square": "Framework"},
         {"square": "Future state"},
+        {"square": "Get the Ball Rolling"},
         {"square": "Granular"},	
         {"square": "Haircut"},	
         {"square": "Headlights"},
@@ -69,6 +72,7 @@ var JSONBingo = {"squares": [
         {"square": "Robust"},	
         {"square": "Scale"},
         {"square": "Scenario"},	
+        {"square": "Stakeholder"},
         {"square": "Streamline"},
         {"square": "Sustainability"},
         {"square": "Synergy"},

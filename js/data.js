@@ -2,8 +2,7 @@
 var headerText = "Lingo Bingo";
 
 var winTextAll = ["You are a business champion!",
-                  "You are a titan of industry!",
-                  "You just made business your bitch!"];
+                  "You are a titan of industry!"];
 var winText = winTextAll[Math.floor(Math.random() * winTextAll.length)];
 
 var JSONBingo = {"squares": [
@@ -40,6 +39,7 @@ var JSONBingo = {"squares": [
         {"square": "Foundational"},
         {"square": "Framework"},
         {"square": "Future state"},
+        {"square": "Get the Ball Rolling"},
         {"square": "Granular"},	
         {"square": "Haircut"},	
         {"square": "Headlights"},

@@ -3,6 +3,7 @@ var headerText = "Lingo Bingo";
 
 var winTextAll = ["You are a business champion!",
                   "You are a titan of industry!"];
+
 var winText = winTextAll[Math.floor(Math.random() * winTextAll.length)];
 
 var JSONBingo = {"squares": [
@@ -22,27 +23,19 @@ var JSONBingo = {"squares": [
         {"square": "Capability"},	
         {"square": "Calibrate"},
         {"square": "Close the loop"},	
-        {"square": "Collaboration"},  
         {"square": "Core competency"},
-        {"square": "Current state"},
         {"square": "Cutting Edge"},	   	
         {"square": "Deep dive"},
         {"square": "Deliverable"},
         {"square": "Disrupt"},    	
         {"square": "Drill down"},
-        {"square": "Drinking the Kool-Aid"},
         {"square": "Ecosystem"},
-        {"square": "Elephant in the room"},
-        {"square": "Empowerment"},
-        {"square": "Enable"},	
         {"square": "First-class"},
         {"square": "Foundational"},
         {"square": "Framework"},
         {"square": "Future state"},
-        {"square": "Get the Ball Rolling"},
         {"square": "Granular"},	
         {"square": "Haircut"},	
-        {"square": "Headlights"},
         {"square": "Higher-order thinking"},
         {"square": "Holistic"},
         {"square": "Ideation"},
@@ -51,6 +44,7 @@ var JSONBingo = {"squares": [
         {"square": "Incentivize"},
         {"square": "Infrastructure"},
 		{"square": "Insight"},
+        {"square": "Key Player"},
         {"square": "KPI"},
         {"square": "Lever"},
         {"square": "Leverage"},	
@@ -58,9 +52,6 @@ var JSONBingo = {"squares": [
         {"square": "Low-hanging fruit"},	
         {"square": "Mindset"},
         {"square": "Mission Critical"},
-        {"square": "Move the needle"},
-        {"square": "Next generation"},
-        {"square": "Opportunity"},	
         {"square": "Optimize"},
         {"square": "Out of the box"},	
         {"square": "Pain point"},
@@ -70,8 +61,6 @@ var JSONBingo = {"squares": [
         {"square": "Push the envelope"},
         {"square": "Rockstar"},	
         {"square": "Robust"},	
-        {"square": "Scale"},
-        {"square": "Scenario"},	
         {"square": "Stakeholder"},
         {"square": "Streamline"},
         {"square": "Sustainability"},
@@ -81,7 +70,6 @@ var JSONBingo = {"squares": [
         {"square": "Traction"},
         {"square": "Unpack"},
         {"square": "Visibility"},
-        {"square": "Water under the bridge"},
         {"square": "Wheelhouse"},
         {"square": "Win-win"}
     ]

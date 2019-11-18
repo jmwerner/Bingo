@@ -55,6 +55,7 @@ var JSONBingo = {"squares": [
         {"square": "Pain point"},
         {"square": "Paradigm"},	
         {"square": "Ping"},
+	{"square": "Positive intangibles"},
         {"square": "Productionalize"},
         {"square": "Push the envelope"},
 	{"square": "Quantum"},
